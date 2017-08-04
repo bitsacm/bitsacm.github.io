@@ -1,0 +1,8 @@
+<div class="navbar">
+  <ul>
+    <li {% if page.title == "Home" %} class="active" {% endif %} ><a href="{{ site.baseurl }}/">Home</a></li>
+    <li {% if page.title == "Posts" %} class="active" {% endif %} ><a href="{{ site.baseurl }}/posts/chronological/">Posts</a></li>
+    <li {% if page.title == "Authors" %} class="active" {% endif %} ><a href="{{ site.baseurl }}/authors/">Authors</a></li>
+    <li {% if page.title == "About Us" %} class="active" {% endif %} ><a href="{{ site.baseurl }}/about/">About us</a></li>
+  </ul>
+</div>

@@ -1,0 +1,30 @@
+---
+layout: default
+title: Posts
+permalink: /posts/chronological/
+---
+
+<div class="container">
+  <div class="inner-container posts">
+
+    <div class="switch">
+      <h3><a href="{{ site.baseurl }}/posts/chronological/" id="chronological">Chronological</a></h3>
+      <h2>|</h2>
+      <h3><a href="{{ site.baseurl }}/posts/categories/">Categories</a></h3>
+    </div>
+
+    {% assign monthSetter = "foo" %}
+    {% for post in site.posts%}
+      {% assign post-month = post.date | date: "%B" %}
+      {% if monthSetter != post-month %}
+        {% assign monthSetter = post-month %}
+        <h4 id="posts-broad-headings">{{ post.date | date: "%B %Y" }}</h4>
+      {% endif %}
+
+          {% include post.html%}
+
+      {% endfor %}
+
+  </div>
+</div>
+<br>

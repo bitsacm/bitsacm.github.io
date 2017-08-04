@@ -1,0 +1,33 @@
+---
+layout: default
+title: Author
+---
+
+<div class="container-authors">
+  <div class="inner-container">
+    <div class="author-info-page">
+      <div class="profile-pic">
+        <img src="{{ site.baseurl }}{{ page.image_path }}" alt="image">
+      </div>
+      <h3>{{ page.title }}</h3>
+
+        <p>{{content}}</p>
+
+      <h5>POSTS</h5>
+
+      {% assign nopost = 0 %}
+      {% for post in site.posts%}
+          {% if post.author == page.title %}
+            {% assign nopost = 1 %}
+            {% include post.html %}
+          {% endif %}
+      {% endfor %}
+
+      {% if nopost == 0 %}
+      <p>No Posts published yet! <br> So Disappointing </p>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+<br>

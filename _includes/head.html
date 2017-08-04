@@ -1,0 +1,38 @@
+<head prefix="og: http://ogp.me/ns#">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Open graph tags and twitter tags-->
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.desc }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/banner 5.jpg" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/gen.css">
+
+  <!--icons i.e. font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- webfonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"  type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic' rel='stylesheet' type='text/css'>
+  <title> {{ page.title }} </title>
+
+  <!-- fevicon -->
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/fevicon.png">
+
+  <!-- jquery for loader -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+       $(".loader-wrapper").fadeOut("fast");
+     })
+  </script>
+
+</head>

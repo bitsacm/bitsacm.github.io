@@ -1,0 +1,32 @@
+---
+layout: default
+title: Authors
+permalink: /authors/
+---
+
+<div class="container">
+  <div class="inner-container">
+    <h4 class="heading">THE NERDS</h4>
+
+    {% for auth in site.authors %}
+    <div class="single-author">
+      <h4><a href="{{site.baseurl}}/{{auth.title}}">{{ auth.title }}</a>
+
+        {% assign post-count = 0 %}
+        {% for post in site.posts %}
+            {% if post.author == auth.title %}
+              {% assign post-count = post-count | plus:1 %}
+            {% endif %}
+        {% endfor %}
+        {{post-count}}
+
+         POSTS</h4>
+
+      <p class="author-intro">{{ auth.intro }}</p>
+    </div>
+    {% endfor %}
+
+
+  </div>
+</div>
+<br>

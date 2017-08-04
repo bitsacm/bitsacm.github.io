@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+    <div id="wrapper">
+      {% include banner.html %}
+      {{ content }}
+    </div>
+
+    {% include fix-navbar-on-scroll.html %}
+
+    <!-- if statement is to prevent Google Analytics from counting localhost visits-->
+    <!-- Github Pages automatically sets dev Env to production on hosting -->
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+
+</html>

@@ -1,0 +1,14 @@
+<script>
+var navbarTop = $('.navbar').offset().top; // Get initial position
+$(window).scroll(function() {            // Assign scroll event listener
+var currentScroll = $(window).scrollTop(); // Get current position
+
+  if (currentScroll >= navbarTop){
+    $('.navbar').addClass('navbar-fixed-top');
+  }
+  else {
+    $('.navbar').removeClass('navbar-fixed-top');
+  }
+
+});
+</script>

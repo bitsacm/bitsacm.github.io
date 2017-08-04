@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="inner-container post-page">
+    <h4 class="heading">{{ page.title }}</h4>
+    <h5><a href= "{{site.baseurl}}/posts/chronological/"><i class="fa fa-clock-o"></i> {{ page.date | date: "%-d %b %Y" }} </a> | Written by
+        <a href= "{{site.baseurl}}/{{page.author}}/"><i class="fa fa-user"></i> {{ page.author }}</a>
+        <a href= "{{site.baseurl}}/posts/categories/"><i class="fa fa-tags"></i> {% for tag in page.tags %}{{ tag }} {% unless forloop.last %}, {% endunless %}{% endfor %}</a></h5>
+
+    {{ content }}
+
+    {% include share-bar.html %}
+  </div>
+</div>
+<br>
