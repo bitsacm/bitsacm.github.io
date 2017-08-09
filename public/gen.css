@@ -1,4 +1,4 @@
-html,body,section{
+html,body,section,figure{
   margin: 0;
   padding: 0;
   border: 0;
@@ -209,6 +209,7 @@ i{
   color:#3bcce4;
   margin-right:0.7em;
   margin-bottom: 0.5em;
+  margin-top: 0.25em !important;
   font-family: 'Lato', sans-serif;
   font-weight:400;
 }
@@ -236,7 +237,7 @@ i{
 .about-us div{
   text-align: center;
   margin: auto;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 
@@ -429,6 +430,11 @@ i{
   padding: 1.8em 1.8em 2.6em 1.8em;
 }
 
+.post-page h1, .post-page h2, .post-page h3, .post-page h4{
+  margin-top: 1.2em;
+  font-weight: 500;
+}
+
 .post-page p{
   margin-top: 0.9em;
 }
@@ -555,6 +561,26 @@ i{
 
 /* ----------*/
 
+/* Footer */
+.footer{
+  background: #fff;
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-top: -15px;
+}
+
+.footer p{
+  color: #555;
+}
+.footer a{
+  text-decoration: none;
+  color: #222;
+  font-size: 1.3rem;
+}
+/*--------*/
+
 /* Code */
 code,
 pre {
@@ -571,6 +597,7 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
+  margin-right: 40px;
   padding: 1.2rem;
   font-size: 1rem;
   line-height: 1.4;
@@ -597,6 +624,9 @@ pre code {
   margin-bottom: 0;
 }
 
+.post-page figure{
+  margin-left: 40px !important;
+}
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
@@ -652,7 +682,7 @@ tbody tr:nth-child(odd) th {
 .kr { color: #006699; } /* Keyword.Reserved */
 .kt { color: #007788; } /* Keyword.Type */
 .m { color: #FF6600 } /* Literal.Number */
-.s { color: #d44950 } /* Literal.String */
+.s { color: #2ECC71 } /* Literal.String */
 .na { color: #4f9fcf } /* Name.Attribute */
 .nb { color: #336666 } /* Name.Builtin */
 .nc { color: #00AA88; } /* Name.Class */
@@ -674,7 +704,7 @@ tbody tr:nth-child(odd) th {
 .sb { color: #CC3300 } /* Literal.String.Backtick */
 .sc { color: #CC3300 } /* Literal.String.Char */
 .sd { color: #CC3300; font-style: italic } /* Literal.String.Doc */
-.s2 { color: #CC3300 } /* Literal.String.Double */
+.s2 { color: #2ECC71 } /* Literal.String.Double */
 .se { color: #CC3300; } /* Literal.String.Escape */
 .sh { color: #CC3300 } /* Literal.String.Heredoc */
 .si { color: #AA0000 } /* Literal.String.Interpol */
