@@ -1,10 +1,10 @@
-    ---
-    layout: post
-    title:  "Beginning Machine Learning"
-    tags: [Summer Program, Machine Learning SIG]
-    author: Alex Mathai
-    desc: An introduction to what is needed for Machine Learning
-    ---
+---
+layout: post
+title:  "Beginning Machine Learning"
+tags: [Summer Program, Machine Learning SIG]
+author: Alex Mathai
+desc: An introduction to what is needed for Machine Learning
+---
 
 # Machine Learning Special Interest Group
 
