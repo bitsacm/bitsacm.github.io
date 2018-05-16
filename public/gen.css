@@ -262,9 +262,21 @@ i{
   font-weight: 400;
 }
 
+.author-line-break
+{
+  display: none;
+}
+@media all and (max-width: 768px)
+{
+  .author-line-break
+  {
+    display: inline-block;
+  }
+}
+
 .author-intro{
   font: 300 21px/1.8 Lato, sans-serif;
-  line-height: 0.5em;
+  line-height: 1.5em;
   padding-bottom: 0.7em;
   color: #313131;
 }
@@ -343,6 +355,16 @@ i{
 }
 #chronological, #categories{
   font-weight: 400;
+}
+
+@media all and (max-width: 768px)
+{
+  .switch h3 a{
+    font-size : 1.5em;
+  }
+  .switch h2 {
+    padding: 0;
+  }
 }
 
 
@@ -428,6 +450,26 @@ i{
   font-weight: 400;
   line-height:1.3em;
   padding: 1.8em 1.8em 2.6em 1.8em;
+}
+
+@media all and  (max-width: 768px) 
+{
+  #posts-broad-headings
+  {
+    font-size: 1.4em;
+  }
+  #post-post-title
+  {
+    font-size: 1em;
+  }
+  #post-post-details
+  {
+    font-size: 0.6em;
+  }
+  #post p
+  {
+    font-size: 0.9em;
+  }
 }
 
 .post-page h1, .post-page h2, .post-page h3, .post-page h4{
