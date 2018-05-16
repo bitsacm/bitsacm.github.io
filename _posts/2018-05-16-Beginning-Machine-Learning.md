@@ -11,7 +11,7 @@ desc: An introduction to what is needed for Machine Learning
 ## SIG Co-ordinator - Alex Mathai
 
 ## Terms
-* All prerequisites must be completed by June 1st
+*All prerequisites must be completed by June 1st
 * If you don’t do this, it is your loss. The journey ahead will be very difficult for you.
 * I will allow all of you to be a part of any number of SIGs till July.  After this if you intend to be a part of the ML SIG, you can participate in utmost 2 SIGs.
 Right now, your only job is to study python. 
