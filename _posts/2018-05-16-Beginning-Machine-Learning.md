@@ -23,23 +23,23 @@ desc: An introduction to what is needed for Machine Learning
 1.  **Python** 
   
   1. **Youtube Channel : Corey Schafer Python Tutorials**
-    1. 1 - 9 Videos
-    2. 13 -16 Videos
-    3. 19 - 23 Videos
-    4. 25 Video
-    5. 30 [Optional but recommended]
-    6. 33 - 42  [Optional but recommended]
+      1. 1 - 9 Videos
+      2. 13 -16 Videos
+      3. 19 - 23 Videos
+      4. 25 Video
+      5. 30 [Optional but recommended]
+      6. 33 - 42  [Optional but recommended]
   
   2. **Use any other resource you want as long as you complete all the concepts in the above videos.**
 
 2. **M-1** 
-  1. Done in BITS
+    1. Done in BITS
 
 3. **M-2**
-  1. Done in BITS
+    1. Done in BITS
 
 4. **Prob Stats**
-  1. Done in BITS
+    1. Done in BITS
 
 ## SIG Duration - 2 months
 
