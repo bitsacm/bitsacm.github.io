@@ -36,14 +36,11 @@ desc: An introduction to what is needed for Machine Learning
 
     3.  **Use any other resource you want as long as you complete all the concepts in the above videos.**
 
-2. **M-1** 
-    1. Done in BITS
+2. **Math-1**: Done in BITS
 
-3. **M-2**
-    1. Done in BITS
+3. **Math-2**: Done in BITS
 
-4. **Prob Stats**
-    1. Done in BITS
+4. **Prob Stats**: Done in BITS
 
 ## SIG Duration - 2 months
 
