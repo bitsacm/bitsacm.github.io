@@ -359,6 +359,17 @@ i{
   font-weight: 400;
 }
 
+@media all and (max-width: 768px)
+{
+  .switch h3 a{
+    font-size : 1.5em;
+  }
+  .switch h2 {
+    padding: 0;
+  }
+}
+
+
 
 
 #posts-broad-headings{
